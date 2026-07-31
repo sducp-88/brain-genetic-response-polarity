@@ -1,7 +1,7 @@
 # Reproduction and release-boundary QA
 
 QA date: 31 July 2026  
-Status: **PASS for privacy-bounded public release v1.0.1**
+Status: **PASS for privacy-bounded public release v1.0.2**
 
 ## Deterministic statistical reproduction
 
@@ -21,23 +21,24 @@ Result: **5/5 exact matches**.
 
 ## Figure reproduction
 
-`make_manuscript_figures_v4.py` independently regenerated five figure
+`make_manuscript_figures_v5.py` independently regenerated five figure
 composites and 25 delivery files from the staged bundle.
 
 - All 15 raster deliverables (preview PNG, 600-dpi PNG, and 300-dpi RGB LZW
-  TIFF for each figure) matched the frozen V4 files by exact SHA-256.
+  TIFF for each figure) matched the frozen V5 files by exact SHA-256.
+- The 12 raster deliverables outside Figure 2 remained byte-identical to V4.
 - PDF and SVG hashes differed as expected because regenerated vector files
   contain time- or session-dependent metadata/identifiers.
 - Exact raster identity demonstrates deterministic plotted values, labels,
   geometry, and rendered layout. Original-resolution and final-size visual
-  review of all five composites is recorded in `FIGURE_VISUAL_QA_V4.md`.
+  review is recorded in `FIGURE_VISUAL_QA_V5.md`.
 
 Result: **15/15 raster files exact; five figure composites passed visual
 review**.
 
 ## Code QA
 
-- Python scripts parsed: 38.
+- Python scripts parsed: 39.
 - R scripts parsed: 14.
 - All included Python scripts passed syntax parsing.
 - All included R scripts passed `parse()`.
@@ -78,10 +79,11 @@ relicensed by this bundle.
   identifiers are recorded in `AUTHORS.md` and `CITATION.cff`.
 - The public repository excludes the journal manuscript, street address, and
   non-corresponding-author email addresses.
-- The frozen `v1.0.1` release is the version supporting the journal submission
+- The frozen `v1.0.2` release is the version supporting the journal submission
   package;
-  it supersedes v1.0.0 only for Figure 2 layout and TIFF color-mode handling;
-  analysis inputs, estimates, and inferential decisions are unchanged. The
-  optional archival DOI remains pending.
+  it supersedes v1.0.1 only for Figure 2 panel-heading regularization,
+  sensitivity-label shortening, and forest-plot gutter spacing; analysis
+  inputs, estimates, and inferential decisions are unchanged. The optional
+  archival DOI remains pending.
 - Manuscript-specific declarations and author approvals are maintained outside
   this public repository.

@@ -1,0 +1,224 @@
+{
+  "status": "COMPLETE",
+  "layout_version": "V5_figure2_heading_grid_and_forest_gutter",
+  "style": "restrained academic; low saturation; redundant shape encoding",
+  "target_layout": {
+    "journal": "BMC Genomics",
+    "full_page_width_mm": 170,
+    "maximum_height_mm": 225,
+    "global_titles_inside_graphic": false,
+    "panel_letters": "uppercase, left-aligned to each panel",
+    "title_and_legend_location": "main manuscript"
+  },
+  "palette": {
+    "navy": "#1F3A4D",
+    "blue": "#4F6D7A",
+    "slate": "#6E7781",
+    "ochre": "#B38A58",
+    "burgundy": "#8A5A5A",
+    "pale": "#F5F6F4",
+    "ink": "#263238",
+    "grid": "#D7DAD8",
+    "light_blue": "#A9BAC2",
+    "light_ochre": "#D8C4A5"
+  },
+  "accessibility": [
+    "No rainbow scale",
+    "Color and shape jointly encode major groups",
+    "Zero-reference lines are explicit",
+    "Text labels carry all primary numeric conclusions",
+    "Abbreviations are expanded in the manuscript legend"
+  ],
+  "outputs": [
+    {
+      "figure": "Figure_1_study_design",
+      "path": "vector/Figure_1_study_design.pdf",
+      "bytes": 37481,
+      "sha256": "373da6df9377aa994bbb458f6aca6040db001214ab72ca3096e5cec24dd001df",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_1_study_design",
+      "path": "vector/Figure_1_study_design.svg",
+      "bytes": 20599,
+      "sha256": "28a470fbeec26b5d1269bd0a6950e2a85afba9dc655909b0c215269b6f2a1ea7",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_1_study_design",
+      "path": "raster/Figure_1_study_design_600dpi.png",
+      "bytes": 432837,
+      "sha256": "835ad26fa4ce1741adae2a557e8c7298d3b5b1be78fea53b5fb5df3aa3894d15",
+      "pixel_size_600dpi_png": [
+        4195,
+        2769
+      ]
+    },
+    {
+      "figure": "Figure_1_study_design",
+      "path": "preview/Figure_1_study_design_preview.png",
+      "bytes": 116699,
+      "sha256": "c6575ef17632c484f9abbe95079c409a99ef037ee704f936f95c53f3092583ab",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_1_study_design",
+      "path": "raster/Figure_1_study_design_300dpi_lzw.tiff",
+      "bytes": 568330,
+      "sha256": "7f0f3495b8264c420c7ddaf254748d8df70538edf9a904d44613bb5644400e3a",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_2_RADC_robustness",
+      "path": "vector/Figure_2_RADC_robustness.pdf",
+      "bytes": 28285,
+      "sha256": "522acf0e691f684bda3004437e901365bc3ee93da9b49d884fba037a9a9a4913",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_2_RADC_robustness",
+      "path": "vector/Figure_2_RADC_robustness.svg",
+      "bytes": 35642,
+      "sha256": "ba32ed76c5c92991e3f73e3eeb5ae009ab0b5c6972bc9fc1f729c58471530c79",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_2_RADC_robustness",
+      "path": "raster/Figure_2_RADC_robustness_600dpi.png",
+      "bytes": 355463,
+      "sha256": "9a65550d80247c56d596dc2f59f7032fe3495a5c445b15ef1d07c3a5dd7a334f",
+      "pixel_size_600dpi_png": [
+        4377,
+        2649
+      ]
+    },
+    {
+      "figure": "Figure_2_RADC_robustness",
+      "path": "preview/Figure_2_RADC_robustness_preview.png",
+      "bytes": 93556,
+      "sha256": "3dce2fb1e52d7b164460f77ae087def3169a615101e3e6ec6dd09690f581d1ab",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_2_RADC_robustness",
+      "path": "raster/Figure_2_RADC_robustness_300dpi_lzw.tiff",
+      "bytes": 486622,
+      "sha256": "508f62457ab107b38b710fba8bdda8a8d66374245e952d794b153f3643e2e04d",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_3_SEAAD_region_composition",
+      "path": "vector/Figure_3_SEAAD_region_composition.pdf",
+      "bytes": 27519,
+      "sha256": "4d0eafee547e85d40489a9a8daabcde9df255b946fc7e2cc23c2a0da3a6b261d",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_3_SEAAD_region_composition",
+      "path": "vector/Figure_3_SEAAD_region_composition.svg",
+      "bytes": 27805,
+      "sha256": "3fdcef188d1ba6de772ca7d544269b569ed9aef35432020e818fe1349a21ed3a",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_3_SEAAD_region_composition",
+      "path": "raster/Figure_3_SEAAD_region_composition_600dpi.png",
+      "bytes": 350643,
+      "sha256": "45eae425edbeb12684db0b02b09fa89e3b6f229983fd34e1ff891e8ac6299bc8",
+      "pixel_size_600dpi_png": [
+        4268,
+        2684
+      ]
+    },
+    {
+      "figure": "Figure_3_SEAAD_region_composition",
+      "path": "preview/Figure_3_SEAAD_region_composition_preview.png",
+      "bytes": 90949,
+      "sha256": "dfbd7505c6b387d2af1be305e15f7537743c7163f100d0779d4d267540595b95",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_3_SEAAD_region_composition",
+      "path": "raster/Figure_3_SEAAD_region_composition_300dpi_lzw.tiff",
+      "bytes": 596922,
+      "sha256": "bf2229d85f65a70c2d7dd190f207fc263be84129d7316e6c921829e2992d82b8",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_4_direct_context_contrasts",
+      "path": "vector/Figure_4_direct_context_contrasts.pdf",
+      "bytes": 33004,
+      "sha256": "d452f8ef27eafdc232938a8fa1059603666b9f58df278b0d57b2f24055c82505",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_4_direct_context_contrasts",
+      "path": "vector/Figure_4_direct_context_contrasts.svg",
+      "bytes": 39981,
+      "sha256": "563b0d92f0f6fec3a9f92e39ea3d78ccc030d4447bfa460b2c7803fa576e681d",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_4_direct_context_contrasts",
+      "path": "raster/Figure_4_direct_context_contrasts_600dpi.png",
+      "bytes": 301282,
+      "sha256": "962576a4ab240203289c8b034558aaa2c90699a862524aa351a02d227802b75e",
+      "pixel_size_600dpi_png": [
+        4320,
+        2572
+      ]
+    },
+    {
+      "figure": "Figure_4_direct_context_contrasts",
+      "path": "preview/Figure_4_direct_context_contrasts_preview.png",
+      "bytes": 82440,
+      "sha256": "617ea41c51c3dbb3148269cd19e7be16288f3b955ff1e0e5bddff6d6ae59511e",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Figure_4_direct_context_contrasts",
+      "path": "raster/Figure_4_direct_context_contrasts_300dpi_lzw.tiff",
+      "bytes": 390870,
+      "sha256": "77a1bbe14a187fbd3ba7a1aabaa3b0d2822703903dc8f7d944bc2c93348c430e",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Supplementary_Figure_S1_composition_shift",
+      "path": "vector/Supplementary_Figure_S1_composition_shift.pdf",
+      "bytes": 15575,
+      "sha256": "d0cf811e43cc172424034cae0e346f1788ad14fe9fb292ddada293e2e38a05c5",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Supplementary_Figure_S1_composition_shift",
+      "path": "vector/Supplementary_Figure_S1_composition_shift.svg",
+      "bytes": 28291,
+      "sha256": "b7737ce6239b535642e84270ce38974b598935c1e80233319b58759e457b0cf0",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Supplementary_Figure_S1_composition_shift",
+      "path": "raster/Supplementary_Figure_S1_composition_shift_600dpi.png",
+      "bytes": 239193,
+      "sha256": "58504a0ab7e58b0a9fa8aa101f32e40d3b2cee53243ab0f4c12c1342ae1f6add",
+      "pixel_size_600dpi_png": [
+        3140,
+        3052
+      ]
+    },
+    {
+      "figure": "Supplementary_Figure_S1_composition_shift",
+      "path": "preview/Supplementary_Figure_S1_composition_shift_preview.png",
+      "bytes": 63611,
+      "sha256": "00d169f31239b39d8099214142224808a9fdc8e39a59398e211dc8c8a2e68588",
+      "pixel_size_600dpi_png": null
+    },
+    {
+      "figure": "Supplementary_Figure_S1_composition_shift",
+      "path": "raster/Supplementary_Figure_S1_composition_shift_300dpi_lzw.tiff",
+      "bytes": 267324,
+      "sha256": "6a25cd28260f15998878fe85a620ecc9537941af830d766d649b36fcfea2ff2c",
+      "pixel_size_600dpi_png": null
+    }
+  ]
+}

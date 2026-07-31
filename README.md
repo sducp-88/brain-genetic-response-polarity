@@ -1,6 +1,6 @@
 # Aggregate-only reproducibility bundle
 
-Status: **MIT-licensed public reproducibility release (`v1.0.1`)**.
+Status: **MIT-licensed public reproducibility release (`v1.0.2`)**.
 
 This bundle supports two levels of review:
 
@@ -14,7 +14,7 @@ This bundle supports two levels of review:
 ## What is included
 
 - Frozen aggregate inputs and outputs listed by the original run manifests.
-- Presubmission statistical synthesis scripts and the V4 figure script.
+- Presubmission statistical synthesis scripts and the V5 figure script.
 - Portable upstream Python and R source files.
 - Final aggregate tables, figure files, and figure-generation QA.
 - Exact public dataset/version identifiers, local verification records, SEA-AD
@@ -50,9 +50,9 @@ JSON run manifests are expected to differ.
 ## Reproduce the figures
 
 ```bash
-python scripts/make_manuscript_figures_v4.py \
+python scripts/make_manuscript_figures_v5.py \
   --project . \
-  --output-dir outputs/reproduced/figures_manuscript_v4
+  --output-dir outputs/reproduced/figures_manuscript_v5
 ```
 
 Raster output can be compared pixel-for-pixel; PDF/SVG metadata may differ
@@ -95,8 +95,8 @@ excluded third-party data.
 This public repository intentionally excludes the journal manuscript, street
 address, and non-corresponding-author email addresses. Journal submission
 declarations are maintained in the separate private submission package.
-Release `v1.0.1` is the frozen version supporting the journal submission
-package and the visually revised Figure 2. The patch changes figure layout and
-TIFF color mode only; analysis inputs, estimates, and inferential decisions are
-unchanged. An archival DOI can be added after the tagged release is deposited
-in Zenodo.
+Release `v1.0.2` is the frozen version supporting the journal submission
+package and the visually revised Figure 2. The patch regularizes panel
+headings, shortens sensitivity labels, and increases the forest-plot gutter;
+analysis inputs, estimates, and inferential decisions are unchanged. An
+archival DOI can be added after the tagged release is deposited in Zenodo.

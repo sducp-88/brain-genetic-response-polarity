@@ -1,5 +1,33 @@
 # Release notes
 
+## v1.0.2 - 31 July 2026
+
+This artwork-only patch regularizes Figure 2 panel headings and forest-plot
+spacing. Analysis inputs, estimates, confidence intervals, P values,
+multiplicity decisions, and manuscript claims are unchanged.
+
+### Figure changes
+
+- Panel letters A, B, and C now use one vertical baseline and the same fixed
+  offset from their respective plot areas.
+- All three panel titles are centered over their plot areas and shortened
+  where necessary to prevent letter-title collisions.
+- Panel-A sensitivity labels use concise parallel wording.
+- The A-to-B gutter was increased so panel-B labels no longer crowd the
+  panel-A frame.
+- The V4 vertical padding, wider panel C, and omission of redundant panel-B
+  P-value annotations are retained.
+
+### Quality control
+
+- Figure 2 inspected at original 600-dpi resolution and at intended
+  manuscript display size;
+- all 15 independently regenerated raster deliverables matched V5 by exact
+  SHA-256;
+- the 12 non-Figure-2 raster files are byte-identical to V4;
+- source script: `scripts/make_manuscript_figures_v5.py`;
+- full audit: `FIGURE_VISUAL_QA_V5.md`.
+
 ## v1.0.1 - 31 July 2026
 
 This patch release revises publication artwork without changing analysis
