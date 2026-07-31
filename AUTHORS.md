@@ -44,8 +44,8 @@
   Visualization, Project administration, Supervision, Writing - original
   draft, Writing - review and editing.
 
-All authors must review and approve this statement before journal submission
-and agree to be accountable for their contributions.
+All authors reviewed and approved the contribution statement and agreed to be
+accountable for their contributions before journal submission.
 
 ## Funding
 

@@ -1,7 +1,7 @@
 # Reproduction and release-boundary QA
 
 QA date: 31 July 2026  
-Status: **PASS for privacy-bounded public release; public deposit in progress**
+Status: **PASS for privacy-bounded public release v1.0.0**
 
 ## Deterministic statistical reproduction
 
@@ -76,7 +76,7 @@ relicensed by this bundle.
   identifiers are recorded in `AUTHORS.md` and `CITATION.cff`.
 - The public repository excludes the journal manuscript, street address, and
   non-corresponding-author email addresses.
-- Public repository publication and the frozen release commit are in progress;
-  the archival DOI remains pending.
+- The frozen `v1.0.0` release is the version supporting journal submission;
+  the optional archival DOI remains pending.
 - Manuscript-specific declarations and author approvals are maintained outside
   this public repository.

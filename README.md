@@ -1,6 +1,6 @@
 # Aggregate-only reproducibility bundle
 
-Status: **MIT-licensed public reproducibility release candidate (`v0.1.0`)**.
+Status: **MIT-licensed public reproducibility release (`v1.0.0`)**.
 
 This bundle supports two levels of review:
 
@@ -94,5 +94,6 @@ excluded third-party data.
 
 This public repository intentionally excludes the journal manuscript, street
 address, and non-corresponding-author email addresses. Journal submission
-declarations are maintained in the separate private submission package. An
-archival DOI will be added after the tagged release is deposited in Zenodo.
+declarations are maintained in the separate private submission package.
+Release `v1.0.0` is the frozen version supporting the submitted analysis. An
+archival DOI can be added after the tagged release is deposited in Zenodo.

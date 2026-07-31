@@ -106,7 +106,11 @@ def main() -> None:
                 )
 
     with MANIFEST.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["path", "size_bytes", "sha256"])
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=["path", "size_bytes", "sha256"],
+            lineterminator="\n",
+        )
         writer.writeheader()
         writer.writerows(rows)
 
@@ -125,7 +129,8 @@ def main() -> None:
         "violations": violations,
         "status": "PASS" if not violations else "FAIL",
     }
-    AUDIT.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    with AUDIT.open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
     if violations:
         raise SystemExit(1)
