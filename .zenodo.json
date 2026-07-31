@@ -2,7 +2,7 @@
   "title": "Genetic-to-postmortem expression direction coupling across human brain disorders",
   "description": "Aggregate-only reproducibility bundle for a multi-cohort donor-level transcriptomic analysis of the agreement between genetically anchored and postmortem expression directions. The release excludes third-party raw data and donor-level information. This work was supported by the Natural Science Foundation of Shandong Province (ZR2023MH340; principal investigator: Hui Yang).",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "access_right": "open",
   "license": "MIT",
   "creators": [
