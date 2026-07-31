@@ -1,0 +1,35 @@
+# Credentials and local configuration
+.env
+.env.*
+*.token
+*.pem
+
+# Python and R generated files
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Third-party or participant-level biomedical data
+*.h5
+*.hdf5
+*.h5ad
+*.loom
+*.rds
+*.RDS
+*.parquet
+*.feather
+*.xlsx
+*.xls
+
+# Local scratch and downloads
+data/raw/
+data/derived/pseudobulk/
+external/
+tmp/
+scratch/

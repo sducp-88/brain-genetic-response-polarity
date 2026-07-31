@@ -1,0 +1,46 @@
+[
+  {
+    "resource": "PsychAD RADC processed snRNA-seq",
+    "role": "co-primary continuous pathology analysis",
+    "persistent_id": "dataset 5e57cd50-8e42-42d6-940d-5c1660d06864",
+    "exact_version": "54293783-669c-410e-919d-474960f8761b",
+    "source_url": "https://datasets.cellxgene.cziscience.com/54293783-669c-410e-919d-474960f8761b.h5ad",
+    "local_size_bytes": 6282475871,
+    "local_verification": "sha256:1a2149ec479dc76b206b38dd54a1b89d6609ec44cee32dde247914749547b127",
+    "download_completed_at": 1785297401.4666522,
+    "redistributed_in_bundle": false
+  },
+  {
+    "resource": "PsychAD MSSM processed snRNA-seq",
+    "role": "AD and schizophrenia disease-state analysis",
+    "persistent_id": "dataset 37a17b78-4864-4a42-b67b-31c00962795a",
+    "exact_version": "0e853475-e298-4b09-881a-ed0b60d5a8c9",
+    "source_url": "https://datasets.cellxgene.cziscience.com/0e853475-e298-4b09-881a-ed0b60d5a8c9.h5ad",
+    "local_size_bytes": 36092176654,
+    "local_verification": "multipart-etag:72799600f17f829d641fba43b218f68e-4303",
+    "download_completed_at": "2026-07-30T14:24:39+08:00",
+    "redistributed_in_bundle": false
+  },
+  {
+    "resource": "SingleBrain supplementary tables",
+    "role": "genetic-expression direction anchors",
+    "persistent_id": "doi:10.1038/s41588-026-02541-x",
+    "exact_version": "publisher file downloaded 2026-07-29",
+    "source_url": "https://www.nature.com/articles/s41588-026-02541-x",
+    "local_size_bytes": 2846247,
+    "local_verification": "sha256:081bc422bd39d50f0a8dcad4f0c69ad8441f507318e20c46ef7cc19d8a834468",
+    "download_completed_at": 1785288301.3164783,
+    "redistributed_in_bundle": false
+  },
+  {
+    "resource": "SEA-AD multiregion donor pseudobulk objects",
+    "role": "DFC family and regional/composition sensitivities",
+    "persistent_id": "s3://sea-ad-single-cell-profiling",
+    "exact_version": "Multiregion_2026 objects dated 2026-06-22",
+    "source_url": "https://registry.opendata.aws/allen-sea-ad-atlas/",
+    "local_size_bytes": "",
+    "local_verification": "12 official/local S3 ETags in SEA_AD_OBJECT_MANIFEST.csv",
+    "download_completed_at": "2026-07-30/2026-07-31",
+    "redistributed_in_bundle": false
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "status": "COMPLETE",
+  "generated_at": "2026-07-31T09:37:28.168025+08:00",
+  "bootstrap_replicates": 10000,
+  "seed": 20260731,
+  "script": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/scripts/summarize_presubmission_v2.py",
+  "script_sha256": "c121108ae786a8e3bbad6810f9215ffe2b66577143510d2e31be3702113b3c05",
+  "input_files": [
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_quality_weights/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "922f65fb8e00fb0d854791c79093d123c09b1d8647e5c4d4f864f73a071b238a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_quality_weights/Braak/coupling/direction_coupling_group_results.csv",
+      "sha256": "1ecf87b85168e4230d7af4b57468bfb5add3797e7f6e9f5e4b4cb11f3cb1f657"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_quality_weights/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "e0cce006e7123dc9799385c0c25c3f6d53c08e8e276f07b89f17bf62cd833e92"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_quality_weights/CERAD/coupling/direction_coupling_group_results.csv",
+      "sha256": "bedfb4c3c509fbcb5c3110dc56cf7ddc4dc55432f666d79354f62fb54de67497"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "236d8e8ce74434f778421b4145de593316abb4f027c3c5cc0804c3b30cd193b5"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/Braak/coupling/direction_coupling_group_results.csv",
+      "sha256": "4e0d4c67c376c47ca6236a71814e7d327f90edc8b74738b0ac2ac81b79ed8175"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/Braak/input/radc_Braak_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "a56387367f487422f7c79bab6b23b2a69b7c4d3d25b1becc7122e61a2d548e8c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "e43485931960df23bce28f00173d83a248fe9eb8d9e0777b40a000c2c3ad611e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/CERAD/coupling/direction_coupling_group_results.csv",
+      "sha256": "df69c1925d099fee25a2ed038ed715b699ce4926bf53822417b47fd8d108d1a1"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/CERAD/input/radc_CERAD_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "e32ec56768b6ea0b254426cabd3f0acbc7aef4f381c6470fae410685130fd8a4"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/exclude_age89plus/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "cb720d24ae3066adc44dc5241a581066c78f4ea2aa42832b988b1985c57a753d"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/exclude_age89plus/Braak/coupling/direction_coupling_group_results.csv",
+      "sha256": "e7eb8500c6d062765e9768a0286b3cbdb7a50827e8488f331052cf2ff81cb849"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/exclude_age89plus/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "4a68a5326f389baa0b350870e11b0dee05dcba9baf5235c00d488d180065bfe9"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/exclude_age89plus/CERAD/coupling/direction_coupling_group_results.csv",
+      "sha256": "cadfca9c800d1894ac38be17621e85ab0fd87a68aa00cdf4aebbc93be55e85ac"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/hc3/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "83f2bc377aba71a9bcd499a948edf1c6a7ddb43681a4d872c5313f3b0a58297c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/hc3/Braak/coupling/direction_coupling_group_results.csv",
+      "sha256": "971f7ce3df70d372274f0ae7257555be54d40c50f81834d57c350eabc4ad5706"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/hc3/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "9c041354b8317f8e97e748657245adcc027bb27163f4ee39c10fbea0a38df996"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/hc3/CERAD/coupling/direction_coupling_group_results.csv",
+      "sha256": "6f9b63d4c10bd7bcddccbcc1e02bb7acb34b56149d1bda27e095fce49fd5e9eb"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/min_cells_50/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "fdb26325ae03f16e2842642bca7670f73cc72ad63eb53298ce90bd203e2a742b"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/min_cells_50/Braak/coupling/direction_coupling_group_results.csv",
+      "sha256": "2077775c72a2efafb174845cc0757b70c04a3e72b2acd1a2655687b0a81c05ea"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/min_cells_50/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "0aaa1c182b74689cd64ff6b943b7a81e7d5f3e66df96fb1a4a7258a4c41c7225"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/min_cells_50/CERAD/coupling/direction_coupling_group_results.csv",
+      "sha256": "5b686a40bbad04aeb62541043ad4ed1269982158876d1323ac04bd218e650444"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_log_ncells/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "acb01b37842b04030a4d13a414d5ea55ac9ca78773bd261231311ee47ac8f54e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_log_ncells/Braak/coupling/direction_coupling_group_results.csv",
+      "sha256": "bed38b3591fbdaec3100d39598b84fbf55b747dc047a9da965575ccc932a862f"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_log_ncells/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "b071befd530dcff0113bdef315418eed43af1680fe64601a48bdb0f1f39ad176"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_log_ncells/CERAD/coupling/direction_coupling_group_results.csv",
+      "sha256": "79b489d5beb2a7588f6051a636558d5cb30983a13c072fc6abef56f4e08d0e78"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_nonad/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "c47271f04defe33a09db2dc80e9dfe5bd53602c3c7b3d1cde49ed8a45d9cc886"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_nonad/Braak/coupling/direction_coupling_group_results.csv",
+      "sha256": "37ba86394cf042514a62110cc0ecfae455bf70ccd9d799fd49d0a7e0ad018731"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_nonad/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "cbfee5ccabad6d9a803e80da1d2ca8fa8bfa3ea939eb936714b80e42aa0aa206"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/omit_nonad/CERAD/coupling/direction_coupling_group_results.csv",
+      "sha256": "388dad73ac02a52bc9b07ba214cdfcf0e51cf52031514b353320b0c51ad96182"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/Braak/high_vs_low/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "f8e7110b32d51760fad91caa4dbcb8fac3a936267898e28afc3ce8e034d21f51"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/Braak/high_vs_low/coupling/direction_coupling_group_results.csv",
+      "sha256": "64f6efb3db4f4216329284fb93530e87877ee2eb04bb760dadfa71d5d78234e9"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/Braak/middle_vs_low/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "416549addad43b0bf4b51bb02d6f7a519825d1279b168ba50060f7e7b2311634"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/Braak/middle_vs_low/coupling/direction_coupling_group_results.csv",
+      "sha256": "d831f12355828f31a86aa61104d3727ca8c37a2e188df750e08bc086792ab2d0"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/CERAD/high_vs_low/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "2537eea36a9999d197c781da512882179fe26137498bbf9ebfd726fe45f7ca7d"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/CERAD/high_vs_low/coupling/direction_coupling_group_results.csv",
+      "sha256": "a369ae77b2783ce2b58e4fe50c41d98ec606eddc6ecf4a297039d9e971d671d1"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/CERAD/middle_vs_low/coupling/anchor_direction_probabilities.csv.gz",
+      "sha256": "f70e55b4838d1a1035d4e185e491586e2c96ee5310fe279f66ccaee11d78b56f"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/radc_presubmission_sensitivities/stage_contrasts/CERAD/middle_vs_low/coupling/direction_coupling_group_results.csv",
+      "sha256": "c6774cbed4f628d4bc546e1d93230c2b1263626bef93afbfd161790c43d50d2a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_standard/Braak/input/seaad_Braak_EN_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "c76e62d7153d39df6ffff576d7bd6d30504606737cd2522b9f72f9dd9b6bc9aa"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_standard/CERAD/input/seaad_CERAD_EN_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "33b6b8f2f4275fe6babb209705df3a0b48b759a19de88f46b48a433cd4fc9ec5"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_standard/Braak/input/seaad_Braak_Immune_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "0d57b1d304895c24204ef421b529669997ec5da87358687c76865381e71203f8"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_standard/CERAD/input/seaad_CERAD_Immune_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "db831dcaddf7419affc3c8255c9c58fcb797e56fda5bbc31b1492476af80710c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_standard/Braak/input/seaad_Braak_Oligo_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "a8c7bc4b9aad5865b477f4c471cdb9282a60f6dfa6b876b00e4bd43352a0abcc"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_standard/CERAD/input/seaad_CERAD_Oligo_G1_G2_anchor_pathology_effects.csv",
+      "sha256": "248cc8e3be9541f476850bf6fb0104f8e3c9c1dbc4f56f5c61744da6b33d6ef1"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/summary/seaad_fixed_42_results.csv",
+      "sha256": "ed905dea2e7981bf57d68219b45b144e5fdaed1f0f3147f380f1d4aa0fd4c027"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/summary/seaad_regional_paired_contrasts.csv",
+      "sha256": "72a0e87e26d6c3d7e67fdacb6f40c6f2d3a9444985f058b51f426068e550eaec"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_synthesis_v2/radc_continuous_sensitivities.csv",
+      "sha256": "76758061fa471be2fb5d05c11ed7ce3ac2b286782b47e4ec0cfc46248a609054"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_synthesis_v2/radc_stage_contrasts.csv",
+      "sha256": "e4c09ea4a3f4b5819c5646542cb67db8182edf94ab39b94e216f3ae87b202571"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_synthesis_v2/radc_hc3_sensitivity.csv",
+      "sha256": "9dbc4706c70d1ac0dabdbcbcc81d5d662b7e52457414deb8b8cf711ee5ec011f"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_synthesis_v2/radc_seaad_dfc_direct_contrasts.csv",
+      "sha256": "81f7eef14b6b521a1dcf5809bfc03661eb9a41b0c1526d247df916beac77a72f"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_synthesis_v2/radc_seaad_dfc_locus_components.csv",
+      "sha256": "571e922e8e4bddac959981e19770fe631fb686c7cf71c52a0c8ec2ea3be98a34"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_synthesis_v2/PRESUBMISSION_SYNTHESIS_V2_REPORT.md",
+      "sha256": "2507c24600ea9772ad5057f351f207f89ff70188f5084281e0502cb169c47910"
+    }
+  ],
+  "development_invalid_exclusions": [
+    "development_invalid_exclude_age90plus_kept_20260731_0920",
+    "development_invalid_numeric_age89_exclusion_kept_20260731_0923"
+  ]
+}

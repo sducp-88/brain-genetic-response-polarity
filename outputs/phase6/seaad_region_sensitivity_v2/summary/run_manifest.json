@@ -1,0 +1,558 @@
+{
+  "created_at": "2026-07-31T09:13:43+08:00",
+  "script": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/scripts/summarize_seaad_region_sensitivity_v2.py",
+  "script_sha256": "da89d2e305a79f166e7d496770c96f0f1edf35562b9b701bfcf668030a7a7913",
+  "bootstrap_replicates": 10000,
+  "seed": 20260731,
+  "fixed_result_count": 42,
+  "fixed_regional_contrast_count": 24,
+  "input_files": [
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4931,
+      "sha256": "f27cc08f1db663b938e8d351e2751a54e4ad0de51a029607527f5eeb7fb0b484"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1086,
+      "sha256": "22c04b9dd82c1d9148bab70646f7e8e5013aea4ddb40eb5b3b03253f8ef0c42b"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4923,
+      "sha256": "9c2cfb75da74b1b274547add44f40067426dcc365f77ef016896c6ecd2a6edeb"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1085,
+      "sha256": "a43f9cb384e789adf79a833c09a48e80272e1aadc4da6c910936c980bc9bc671"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4964,
+      "sha256": "f78163677acad41a4b65aa135214dbf934193e35e5842eaa9a30f234edf48e42"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1092,
+      "sha256": "4db0f1cc82fc8fddf4710d289f795b389ad7f19a3c2c9e2594e7ace9e89f7cb8"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4893,
+      "sha256": "51b2e30a83115005473ec9750b56708445ad8fbf7ef99a4840417df3958770dd"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/DFC_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1083,
+      "sha256": "3eb7ac42e0f910d5d926e6472f64193aa1f0fb8f11fc07facec067b56828b07e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4915,
+      "sha256": "b101b276df6f649445b0b219f3b4b9c6ba67bebdf0f6480e9742b109e91f2ead"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1086,
+      "sha256": "0cbc30021082af36fdbfefe64e1a83caf320f6f1b2d8cb59140cb1939fb9c256"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4890,
+      "sha256": "f4f86f36aa339b1d3a04aff1acc7c3e683d65f0e183bf381937752f5fb85c26e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1088,
+      "sha256": "f935b01f74f589be317be9c9f94a83752f9b0f347ed6b0ea07d23ff9258535bb"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4915,
+      "sha256": "6ec3c23c2b438bb236c2539747bbc5856cae321e3ab77b69bdc94e67adc049f0"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1085,
+      "sha256": "6d7adad0f995dac25673d4e4fc06d8a4f64913e390ded0584223eeae42fde599"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4893,
+      "sha256": "cad7ee027a852f9b87b99bebbd5d7b4c82fa39a0df25a0b73fe392ad2c64a1d3"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MEC_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1067,
+      "sha256": "309eeda7a1378fb47c9d09bd7d574a1c6412dc345fc765b228325d1aeb698907"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4946,
+      "sha256": "695a367feab0fb44d641b09ca5dd76044a7510e5040df0e9426829d7b5fc39fe"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1098,
+      "sha256": "c1c313784eacd627e01bc66e361a459a774f06d0da92f11016776e6cf518a7e4"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4960,
+      "sha256": "9be25610966ebccc4b640d651f7a27e6ce7b0e8ba72b05cf4ed009b7427bc126"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1094,
+      "sha256": "8d92fcb3cff2df4adcde7caa765f14792d7e9ad874109a6418f71e6effa89999"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4866,
+      "sha256": "079b671891fc75ffa6016a527a6292c6c437e122b8117027193be0abe34eb16a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1089,
+      "sha256": "c371d592d3e9bf278147bd9d1d156e16d9845193b49f4e01ee6b9d3779eb6d51"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4852,
+      "sha256": "0a1f6379397c579d81f09134aba03c4aab4353dc6be6f5a85dc09194af493581"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/MTG_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1073,
+      "sha256": "fbfa7dc104ae357710b470e3685f124ceb01af15c54d697fbd93a69a7f7f92bd"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/repeated_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4870,
+      "sha256": "d35e8ac966f2a0172252168261d2c1890a9e2283662042a77441e8416caea316"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/repeated_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1085,
+      "sha256": "4d5760d39e8889c1df1f1e4578d5e7633f9fbc49770743c164ed09db8c863b00"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/repeated_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4841,
+      "sha256": "244f2a5739bbe00c7850fac4cb4e2f2dea44d025023d5664cfa9077f95cc512a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/coupling/repeated_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1083,
+      "sha256": "30851930ef64b7bebdecd114d7692db221606463e7e3548709815d204ccaf3b3"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/models_DFC_composition/model_manifest.csv",
+      "bytes": 1144,
+      "sha256": "622d06112fbcdda7f44379a6fd168acc7763621c136fadfc5dfdda79b6723c24"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/models_DFC_standard/model_manifest.csv",
+      "bytes": 913,
+      "sha256": "1ec637fbe2b1d9841960ca45b46546450a737d64d776e4ecaea4d48a74b6367b"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/models_MEC_composition/model_manifest.csv",
+      "bytes": 1147,
+      "sha256": "d2e8f3425da49b11a49282a3d23186cf7ddc951e1d836e9fcb39dddc64ca0406"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/models_MEC_standard/model_manifest.csv",
+      "bytes": 915,
+      "sha256": "31a1b75aba0af3d6ecbf20835f0486c61f1985bc34486d37930091a4b5f09546"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/models_MTG_composition/model_manifest.csv",
+      "bytes": 1144,
+      "sha256": "91f595df1a7706f7dc006011be9582ff89309aa95c0411a7d2c328f8369d68a8"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/models_MTG_standard/model_manifest.csv",
+      "bytes": 917,
+      "sha256": "2a59d9d359506734f1dc7f5ce177a870ceccade9207b8ef245d5166734aa984d"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/EN/models_repeated_standard/model_manifest.csv",
+      "bytes": 1168,
+      "sha256": "5574cc0b4548b445e408abc1d40e74d3fecbd010bec50673033aeb3e6cbe93e9"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6308,
+      "sha256": "098ade0f51488134430ff26c7d4fa136f6f99e0b21caa9d9022f40f05bcaf734"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1071,
+      "sha256": "8b7506969c07201db829430cc638a1154003ade08b329fdd3246c49dd09aed91"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6305,
+      "sha256": "1d2ae11f6ee44f5277c6e4061a485ea23844c87f7227e78c6d7d34d9cfc5437e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1069,
+      "sha256": "7dfe205a568f34748389e41540d42783bf4d1f2ea0a2083f6ac741845de46090"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6354,
+      "sha256": "7effa66927cfac85b1b03284b0d3138e90bae9ba2ead0159b0474606ce103623"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1061,
+      "sha256": "6a91c2dac08c1314f57d2a2e2f4e8c43fd510659f247cfacae6b942d6cae3260"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6341,
+      "sha256": "ddbcf6781e350ed03d9c751d82c7fd6ddabeb6446f2c88c6f1f515b1853e5f89"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/DFC_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1075,
+      "sha256": "9b1fa6bded8a124caa1e18a2b2fc593383891a9641f632953bee2f0026f5d2e3"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6282,
+      "sha256": "011611f327fc11813ac332413e1a91174169802ac8626f351b8d4a02f798e9d8"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1083,
+      "sha256": "73a4ecba284d99de6ef006c50e218c5f3a75a2fc306666df1ff456fc24550aaf"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6311,
+      "sha256": "33ea8f3c14df6e19584d819ca57c46b6749f06ef7ff91742c67c9d0901356d43"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1098,
+      "sha256": "f82c699eb6dc70ae4d123223df8cfeb3c252646e90181cce482634277397a3a0"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6290,
+      "sha256": "1686e2e5bd194988a211647ac9203bf6bdfdb174d8db2775ebb0dba0f46f2e97"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1098,
+      "sha256": "1bdc73119a37bd31f281c1943bd5af2e17e23639b2e74a0c17fe2a02cbb93957"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6377,
+      "sha256": "7e583631f26517276273d6f61011bc429161cdff4ac5350820044a920a262b3f"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MEC_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1074,
+      "sha256": "1ab224721231440e72d8c63ff09671c219590e085b614d7a5e1b15615651e065"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6332,
+      "sha256": "1f41e81b5896c2052b7c29878d66429541f99e20b033220b84963a6985872bee"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1068,
+      "sha256": "791bdf8daa30e3bc98641597a5419ce75ce5d03b2b41b869f9e20a9396862a4d"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6343,
+      "sha256": "a696c11d978a7d78925ea81be24cda9650615b21bf4abbdd8301ef6dcbaf93c1"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1077,
+      "sha256": "590476ba14bb218f877fa78ad2dfdd238e54b2ff73538910357d322c6210d502"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6281,
+      "sha256": "465d8be13af1f7bac6d49a2af8c4202ca44c1eaa414f9abbd2bd5cbde1cc70b9"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1075,
+      "sha256": "2234ef9b461d6c80580b405074220155b6daebf6e916e21aadd0d6f92346f4d7"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6316,
+      "sha256": "6a4981acdb92455deaea0ef9c605c08a1774169b08383dc2aa95e60463939197"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/MTG_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1083,
+      "sha256": "8faa7dd635de799cadba24390d859193caa987b7ba7c46b4bcf7ab5595ae9b7e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/repeated_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6243,
+      "sha256": "d64cbcb0b8872eaec086f26dfa1ce9714fa4703fc161e91dc18e93a780cbb769"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/repeated_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1076,
+      "sha256": "7d162354acd944e315701e3c9e83f9824dc7819b99837359e965e3d3880aba7a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/repeated_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6228,
+      "sha256": "ef55e727be2f97c8e424dc6de6e059e652114691d76dc2d2b78dfb5adbbae412"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/coupling/repeated_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1077,
+      "sha256": "4934bcc84c88d91ac6c74cdca7f635326cb99dfa8b584cd78b9857e3775e3268"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/models_DFC_composition/model_manifest.csv",
+      "bytes": 1094,
+      "sha256": "69c5f420b01f669d57dbf894f992755481aeb0acba865d8733718fb9ffa72b3d"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/models_DFC_standard/model_manifest.csv",
+      "bytes": 936,
+      "sha256": "1e87e2cf638b3c29c011622e5c2d89f4bd975c504e4f01739ec9c7448efa9e1c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/models_MEC_composition/model_manifest.csv",
+      "bytes": 1094,
+      "sha256": "ad54db71f72fa41c54286268372917af6883f8d7f057b6b455ff1c1c749af44f"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/models_MEC_standard/model_manifest.csv",
+      "bytes": 938,
+      "sha256": "5d885b18acc580c33c81f832bebf6641a1b8b5da1904b4c9a4a877552572df1a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/models_MTG_composition/model_manifest.csv",
+      "bytes": 1171,
+      "sha256": "9a40427a5a5a726fdecfd5fe6bf4b16b0b6a83f169982e8fa99f78e7481cd70a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/models_MTG_standard/model_manifest.csv",
+      "bytes": 939,
+      "sha256": "93ff0a4969a3b6c1b9f5861ac4131ef12a09d40bd7f28e7d38450d6c70fa1526"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Immune/models_repeated_standard/model_manifest.csv",
+      "bytes": 1207,
+      "sha256": "85380b78d2693557a4f750aefe3fd038ed10c89a93c5a09fb96a4e90e7c806a6"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3066,
+      "sha256": "3f7dbb3ba5c81b4b1bfe9e6a5d3e3f9c5cefbc482d9b40d334c3ca88f1cb86e6"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1077,
+      "sha256": "6c6b674eecd906d8c05433d3ec5b01d47954b94aafde2460aa9bb2b77cfb3938"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3046,
+      "sha256": "f326a262e8153cbaf4ece780af636c653b3a1757945dd1d2c4c4c166732de4a0"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1074,
+      "sha256": "f6c4eb7302dae95bf1e1ae8788b62664845d9e83f98625e8544a71d8c0526aa3"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3079,
+      "sha256": "cec230b130dcdedf24bacf46e0d70d4618fe6df9f1c18adf4a1da73d50deebdc"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1066,
+      "sha256": "9c0b2a4bfd91efa1bfbf4efd7ad06a0447cd17f34e18d45e05895d5e1435c0f9"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3067,
+      "sha256": "1c0a1aae2b3a7dd61144c662908925f4d3eb383c5c1727d1c0eeb6060dff4831"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/DFC_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1074,
+      "sha256": "d10934d739b27630fa043f152d3fe8ef5fbd5800cec27868614aae00aa5cb3bd"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3057,
+      "sha256": "f15ae77f25c95469840f6abc9f5f81c8ceded72d3ef7ebdbfb2dfef35480dea0"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1070,
+      "sha256": "2ff035b6c2f431f9d012283e374e89be3d53c952b2df6169bb2e81331592c92c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3072,
+      "sha256": "facacd595289e4b355cd4c5984bbf611073d65d60c603822206795a1b4098149"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1085,
+      "sha256": "1b25daaa94a62b43ed6df6ae8ab5643874ac63d58f40ecb30e2c906455a3205c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3042,
+      "sha256": "a02641ea41f9fbc81a2307a6b36b306a5c12d6d55ce923371ac71c1391af117a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1064,
+      "sha256": "4b7f3b75a188bcad451a44460cc18e5d2c87ca331058eca778d7f699df518f3b"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3016,
+      "sha256": "ffc6c5de20ed562d87ef0937e332c556bc6edc86b9ae01a948a93f4c0fa87254"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MEC_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1073,
+      "sha256": "7e23c2a78e8600ea9950abea1d2daf74b129dd0b928e2f3b6f50eaacbc9e76f2"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_composition/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3021,
+      "sha256": "e094b7a87de0ee80abbd03af318ec632e8f21d4dc87286df46d9cd2f91cee11d"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_composition/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1085,
+      "sha256": "7a26719cde777d0515e6f8714cb5b123b2f660fbb0d48f57caa8675599888dcb"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_composition/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3024,
+      "sha256": "845b78725cf34ba0994c860548ee4fa885a2fb844c61211342f471735d8f79f7"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_composition/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1073,
+      "sha256": "c98e287c5d5da7ff2d41130c789cf219e94c13944653899400a403871b5b7eb2"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3029,
+      "sha256": "abd0c0e5f8e3c507831eadc98d6845188356fa454d2900405f20f32a7c40dfb5"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1087,
+      "sha256": "63e98072034224b302aaef8a2ced73159627668873dfa78df5376cd33ba57e48"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3027,
+      "sha256": "f3e22e4dcfea3b4489567ebbf1f8acb492e63a34672d561c99fe9c17f299f5fc"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/MTG_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1076,
+      "sha256": "1cea556ef0247316d0da542bde551749e1c77e33a62073985b5ebfac829ced50"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/repeated_standard/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3016,
+      "sha256": "c71f7f1609ec00955613ae7e8d949ec2c71198350ee8603170f563cf372739af"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/repeated_standard/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 1072,
+      "sha256": "8fa92f9bd02b38cf624be3924357b7e8773a3865ff179286d93093800433f0da"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/repeated_standard/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3007,
+      "sha256": "5718b225adb2710ccdcef5e717e97ea10021921a2881ebb03cf5bc31404bcf57"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/coupling/repeated_standard/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 1067,
+      "sha256": "e59934303e7e203847a503905d43b44bef2c23f118884aa658223cbfcfc0a259"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/models_DFC_composition/model_manifest.csv",
+      "bytes": 1162,
+      "sha256": "807bb22122fb9f440f5276166977d94ee40d9978e21ce9a8e62e18f706364cd2"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/models_DFC_standard/model_manifest.csv",
+      "bytes": 930,
+      "sha256": "9810cfb22d08fffc393fb415c35dbc77263f9c2def3795feb4bbc8e21cb86387"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/models_MEC_composition/model_manifest.csv",
+      "bytes": 1163,
+      "sha256": "bfe4ed31bec9861613612a8dbe46b90b71231e37775b2035000204981d238d6c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/models_MEC_standard/model_manifest.csv",
+      "bytes": 932,
+      "sha256": "da0c2f48b925a5a824762119b866a5e5af61fe765b76a4555384c274c5efbd73"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/models_MTG_composition/model_manifest.csv",
+      "bytes": 1161,
+      "sha256": "2c96d2df369056e95fe95518e9bc96daefc90a65b38680e84cf69b9c4b385df1"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/models_MTG_standard/model_manifest.csv",
+      "bytes": 930,
+      "sha256": "1f410f9028058c0d73ede88cd65c10a361f5d81dad07d0657ad87a0fc88a7f91"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/Oligo/models_repeated_standard/model_manifest.csv",
+      "bytes": 1197,
+      "sha256": "15c00258fa2d1630479cff658297ee09dccaa2241471b7a4140f2b199086bb12"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/summary/seaad_fixed_42_results.csv",
+      "bytes": 10038,
+      "sha256": "ed905dea2e7981bf57d68219b45b144e5fdaed1f0f3147f380f1d4aa0fd4c027"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/summary/seaad_regional_paired_contrasts.csv",
+      "bytes": 5929,
+      "sha256": "72a0e87e26d6c3d7e67fdacb6f40c6f2d3a9444985f058b51f426068e550eaec"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/summary/seaad_regional_locus_components.csv",
+      "bytes": 33187,
+      "sha256": "f5a734e085a9fdb56ba1b983096707304be811322a44af3fddf9737c94805b49"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/seaad_region_sensitivity_v2/summary/SEAAD_REGION_V2_REPORT.md",
+      "bytes": 1652,
+      "sha256": "833755456a5dbd8a14dea7a91983a19186f282f0114bab2047a7425364969811"
+    }
+  ]
+}

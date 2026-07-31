@@ -1,0 +1,156 @@
+{
+  "created_at": "2026-07-31T08:34:59+08:00",
+  "script": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/scripts/run_presubmission_statistics.py",
+  "script_sha256": "d39107fddadacc3390e87c1e3f784f7545e62a387a2c1fd83e572942ce14e325",
+  "project": "/mnt/d/DataAnalysis/brain_genetic_response_polarity",
+  "bootstrap_replicates": 10000,
+  "seed": 20260731,
+  "input_files": [
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/mssm_direction_coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 80645,
+      "sha256": "b262cd408058cccb821960afc0d8c40c0862ea77e8a2b050cb394659d1e41a81"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_quality_weights/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 16107,
+      "sha256": "922f65fb8e00fb0d854791c79093d123c09b1d8647e5c4d4f864f73a071b238a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_quality_weights/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 16075,
+      "sha256": "e0cce006e7123dc9799385c0c25c3f6d53c08e8e276f07b89f17bf62cd833e92"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 16147,
+      "sha256": "236d8e8ce74434f778421b4145de593316abb4f027c3c5cc0804c3b30cd193b5"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/Braak/coupling/direction_coupling_group_results.csv",
+      "bytes": 2121,
+      "sha256": "4e0d4c67c376c47ca6236a71814e7d327f90edc8b74738b0ac2ac81b79ed8175"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/Braak/input/radc_Braak_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 61286,
+      "sha256": "a56387367f487422f7c79bab6b23b2a69b7c4d3d25b1becc7122e61a2d548e8c"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 16150,
+      "sha256": "e43485931960df23bce28f00173d83a248fe9eb8d9e0777b40a000c2c3ad611e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/CERAD/coupling/direction_coupling_group_results.csv",
+      "bytes": 2127,
+      "sha256": "df69c1925d099fee25a2ed038ed715b699ce4926bf53822417b47fd8d108d1a1"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase4/radc_stage_coupling_standard_voom/CERAD/input/radc_CERAD_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 61298,
+      "sha256": "e32ec56768b6ea0b254426cabd3f0acbc7aef4f381c6470fae410685130fd8a4"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_en_core3/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4943,
+      "sha256": "f16106a1a1c5f8e72ddf388f268f456df2079641d11457a1a18ab62e6b2c38bc"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_en_core3/Braak/input/seaad_Braak_EN_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 16226,
+      "sha256": "b6173cfb1a8f387e7261f01ffe56cd6f9a0fa03651ba39f2819879c6baeb8355"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_en_core3/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 4913,
+      "sha256": "a82c3de904dec001f7ff6d760a3d2e538e7686315b12218fbed37597c7cca6f0"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_en_core3/CERAD/input/seaad_CERAD_EN_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 16223,
+      "sha256": "df06dd4d11e7a71c5d6242fe7af9cfd77e7d2a10ad94bc8899ee5d95a3298d55"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_immune_core3/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6293,
+      "sha256": "c8a13412c13a859e5202f645e0c06bb9040250a5dc01f700cf20745f8b229f7a"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_immune_core3/Braak/input/seaad_Braak_Immune_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 22158,
+      "sha256": "51da260d16c3f582a2e28c5317c77609a522b59bee48fb98d6dc00b4b8963dc2"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_immune_core3/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 6333,
+      "sha256": "d962738db298e2a6fa1e3d354d75496dd1e53faadab42d39d0ac647a4e1922fc"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_immune_core3/CERAD/input/seaad_CERAD_Immune_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 22157,
+      "sha256": "6f9171dad57c43feef381f9e51a0bb9f76ae0651925fea2d534946a6c559aa6e"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_oligo_core3/Braak/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3047,
+      "sha256": "6608d16cd0c72d4c8b755f7c7cfb758594fbf420507a563d2648fa109d46c9de"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_oligo_core3/Braak/input/seaad_Braak_Oligo_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 8554,
+      "sha256": "df661b017398d9e857dfaadb47d007e4ca7e8f4a16637283dbf4733858b47ea7"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_oligo_core3/CERAD/coupling/anchor_direction_probabilities.csv.gz",
+      "bytes": 3065,
+      "sha256": "79cc8d5e2bf88838ea51e85ad9cd92ee4f81c48f69746bdb9dc41803e4b0d570"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase5/seaad_oligo_core3/CERAD/input/seaad_CERAD_Oligo_G1_G2_anchor_pathology_effects.csv",
+      "bytes": 8554,
+      "sha256": "4288b1879ac356466de65690be1428a8fa7bf27bacee59e3ac96941a99702346"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_statistics_v1/radc_primary_multiplicity.csv",
+      "bytes": 334,
+      "sha256": "23b9d12c479069cecd82969f16853a8791db0ce7f8060071e6a41938aba79934"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_statistics_v1/locus_bootstrap_intervals.csv",
+      "bytes": 7765,
+      "sha256": "52e66826730d33f6119a4cc69208514e795971b5f701a2b0c5644c1e5a056766"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_statistics_v1/radc_seaad_direct_common_locus_contrasts.csv",
+      "bytes": 1516,
+      "sha256": "dd6ab6baf0804e2f9c2b0ac4b1c4d6f394769918fa7fc37f23b4a6fa0731a349"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_statistics_v1/radc_seaad_common_locus_components.csv",
+      "bytes": 6949,
+      "sha256": "67b7b994243bc5ad953c18f7eb1e6bcd830ef774fc2695837cd824b2cd8aaf04"
+    },
+    {
+      "path": "/mnt/d/DataAnalysis/brain_genetic_response_polarity/outputs/phase6/presubmission_statistics_v1/PRESUBMISSION_STATISTICAL_REPORT.md",
+      "bytes": 2638,
+      "sha256": "da702144266c21fe36c6a09eefd7d94d8137b428a48ab48acbd45b02162c6e17"
+    }
+  ],
+  "fixed_families": {
+    "radc_primary": [
+      "CERAD",
+      "Braak"
+    ],
+    "direct_contrasts": [
+      "Immune__CERAD",
+      "Immune__Braak",
+      "Oligo__CERAD",
+      "Oligo__Braak",
+      "EN__CERAD",
+      "EN__Braak"
+    ]
+  }
+}

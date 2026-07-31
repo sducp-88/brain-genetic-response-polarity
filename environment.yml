@@ -1,0 +1,26 @@
+name: brain-polarity
+channels:
+  - https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda
+  - https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge
+dependencies:
+  - anndata
+  - bioconductor-dreamlet=1.8.0
+  - bioconductor-hdf5array
+  - bioconductor-zellkonverter
+  - pip
+  - pyarrow
+  - python=3.12
+  - r-biocmanager
+  - r-coloc
+  - r-data.table
+  - r-renv
+  - r-susier
+  - scanpy
+  - synapseclient
+  - pip:
+      - lxml==6.1.1
+      - pillow==12.2.0
+      - pypandoc==1.17
+      - python-docx==1.2.0
+      - python-pptx==1.0.2
+      - xlsxwriter==3.2.9

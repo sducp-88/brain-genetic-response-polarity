@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility bundle, please cite it using the metadata below."
+title: "Genetic-to-postmortem expression direction coupling across human brain disorders"
+type: software
+version: 0.1.0
+date-released: 2026-07-31
+license: MIT
+repository-code: "https://github.com/sducp-88/brain-genetic-response-polarity"
+authors:
+  - family-names: Li
+    given-names: Fan
+    affiliation: "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+  - family-names: Jin
+    given-names: Suqin
+    affiliation: "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+  - family-names: Feng
+    given-names: Feifei
+    affiliation: "Department of Pulmonary and Critical Care Medicine, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+  - family-names: Wang
+    given-names: Ping
+    affiliation: "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+  - family-names: Yang
+    given-names: Hui
+    orcid: "https://orcid.org/0000-0003-1368-490X"
+    affiliation: "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+  - family-names: Cheng
+    given-names: Peng
+    orcid: "https://orcid.org/0009-0006-0626-421X"
+    affiliation: "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+    email: "sducp@email.sdu.edu.cn"
+keywords:
+  - Alzheimer disease
+  - schizophrenia
+  - postmortem transcriptomics
+  - colocalization
+  - Mendelian randomization
+  - donor-level pseudobulk
+  - reproducibility

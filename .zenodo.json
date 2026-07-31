@@ -1,0 +1,44 @@
+{
+  "title": "Genetic-to-postmortem expression direction coupling across human brain disorders",
+  "description": "Aggregate-only reproducibility bundle for a multi-cohort donor-level transcriptomic analysis of the agreement between genetically anchored and postmortem expression directions. The release excludes third-party raw data and donor-level information. This work was supported by the Natural Science Foundation of Shandong Province (ZR2023MH340; principal investigator: Hui Yang).",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Li, Fan",
+      "affiliation": "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+    },
+    {
+      "name": "Jin, Suqin",
+      "affiliation": "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+    },
+    {
+      "name": "Feng, Feifei",
+      "affiliation": "Department of Pulmonary and Critical Care Medicine, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+    },
+    {
+      "name": "Wang, Ping",
+      "affiliation": "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+    },
+    {
+      "name": "Yang, Hui",
+      "orcid": "0000-0003-1368-490X",
+      "affiliation": "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+    },
+    {
+      "name": "Cheng, Peng",
+      "orcid": "0009-0006-0626-421X",
+      "affiliation": "Department of Neurology, The Second Qilu Hospital of Shandong University, Cheeloo College of Medicine, Shandong University"
+    }
+  ],
+  "keywords": [
+    "Alzheimer disease",
+    "schizophrenia",
+    "postmortem transcriptomics",
+    "colocalization",
+    "Mendelian randomization",
+    "donor-level pseudobulk",
+    "reproducibility"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "release_root": ".",
+  "scope": "Code, environment, non-identifying aggregate inputs/results, figures, provenance, author names/affiliations/ORCIDs, and corresponding-author institutional email. The journal manuscript, street address, and non-corresponding-author emails are excluded.",
+  "file_count_excluding_generated_audit_files": 276,
+  "manifest_rows": 276,
+  "allowed_emails_found": [
+    "sducp@email.sdu.edu.cn"
+  ],
+  "unexpected_emails_found": [],
+  "violations": [],
+  "status": "PASS"
+}
